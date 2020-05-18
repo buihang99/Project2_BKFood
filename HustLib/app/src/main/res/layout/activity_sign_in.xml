@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:hint="Email"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:inputType="text"
+            android:maxLength="50"
+            android:layout_marginBottom="8dp"
+            />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:hint="Password"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:layout_marginBottom="8dp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/ckbRemember"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Remember Me"
+                android:textColor="@android:color/white"
+                android:gravity="center_vertical"
+                app:cbd_strokeColor="@android:color/white"
+                />
+
+            <TextView
+                android:id="@+id/forgotpass"
+                android:text="Forgot Password"
+                android:textSize="15dp"
+                android:layout_width="0dp"
+                android:textStyle="bold|italic"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:text="Sign In"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        android:background="@color/btnSignActive"
+        />
+
+</RelativeLayout>

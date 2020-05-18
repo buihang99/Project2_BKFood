@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "387917766923",
+    "firebase_url": "https://bkfood-fe299.firebaseio.com",
+    "project_id": "bkfood-fe299",
+    "storage_bucket": "bkfood-fe299.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387917766923:android:34479397e4ece02550c20e",
+        "android_client_info": {
+          "package_name": "hangbt.hust.hustlib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387917766923-8nhdtj449lk9783acu451a2c6gdfnks4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOYTQ56cafzrBl-QixpIRLtdowEyjZ_oo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387917766923-8nhdtj449lk9783acu451a2c6gdfnks4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

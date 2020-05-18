@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="Name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="34sp"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"
+            />
+
+        <EditText
+            android:id="@+id/edtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="Price"
+            android:textColor="@color/colorPrimary"
+            android:textSize="34sp"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"
+            />
+
+        <EditText
+            android:id="@+id/edtDiscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="Discount"
+            android:textColor="@color/colorPrimary"
+            android:textSize="34sp"
+            android:inputType="number"
+            android:layout_marginBottom="8dp"
+            />
+        <EditText
+            android:id="@+id/edtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorPrimary"
+            android:hint="Description"
+            android:textColor="@color/colorPrimary"
+            android:textSize="34sp"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"
+            />
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:text="Select Image"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:textSize="20sp"
+                android:background="@color/colorPrimary"
+                />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:text="Upload"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/white"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:textSize="20sp"
+                android:background="@color/colorPrimaryDark"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
